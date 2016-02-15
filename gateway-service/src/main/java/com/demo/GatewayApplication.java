@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  * @author Marcos Barbero
  */
 @EnableZuulProxy
+//@EnableResourceServer
 @SpringCloudApplication
 public class GatewayApplication {
 
