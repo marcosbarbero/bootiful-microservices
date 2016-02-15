@@ -2,6 +2,6 @@ server.port: 9999
 
 spring:
   application:
-    name: sidecar
+    name: menu
     index: ${HOST:${random.int}}
   cloud.config.uri: http://localhost:8888
