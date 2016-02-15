@@ -1,2 +1,3 @@
-# bootiful-microservices
-Bootiful microservices - Spring Cloud Netflix
+Bootiful Microservices
+---
+Sample application showing spring cloud netflix stack.
