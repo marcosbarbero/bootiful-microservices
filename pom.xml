@@ -44,6 +44,7 @@
     </properties>
 
     <modules>
+        <module>catalog-client</module>
         <module>catalog-service</module>
         <module>configserver</module>
         <module>discovery-service</module>
@@ -82,12 +83,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
