@@ -1,4 +1,10 @@
 logging.level:
   com.netflix.discovery: 'OFF'
 
-security.ignored: /security/**
+zuul.sensitive-headers: Cookie,Set-Cookie
+
+security:
+  ignored: /security/**
+  oauth2.resource:
+    user-info-uri: http://security/user
+    load-balanced: true
